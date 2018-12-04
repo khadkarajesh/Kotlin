@@ -1,4 +1,4 @@
-package com.crushcoder.kmovies.extensions
+package com.example.extensions
 
 import java.text.SimpleDateFormat
 import java.util.*

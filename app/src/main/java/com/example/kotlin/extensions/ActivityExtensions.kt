@@ -1,11 +1,11 @@
-package com.crushcoder.kmovies.extensions
+package com.example.extensions
 
 import android.graphics.drawable.ColorDrawable
+import android.support.annotation.ColorRes
+import android.support.v4.app.FragmentTransaction
+import android.support.v4.content.ContextCompat
+import android.support.v7.app.AppCompatActivity
 import android.util.DisplayMetrics
-import androidx.annotation.ColorRes
-import androidx.appcompat.app.AppCompatActivity
-import androidx.core.content.ContextCompat
-import androidx.fragment.app.FragmentTransaction
 
 /**
  * AppCompatActivity's toolbar visibility modifiers

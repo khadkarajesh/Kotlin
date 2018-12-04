@@ -1,4 +1,4 @@
-package com.crushcoder.kmovies.extensions
+package com.example.extensions
 
 import android.os.Build
 import android.support.annotation.ColorRes

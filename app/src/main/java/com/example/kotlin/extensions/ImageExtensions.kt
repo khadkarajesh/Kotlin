@@ -1,4 +1,4 @@
-package com.crushcoder.kmovies.extensions
+package com.example.extensions
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory

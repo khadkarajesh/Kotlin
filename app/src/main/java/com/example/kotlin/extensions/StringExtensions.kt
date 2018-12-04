@@ -1,5 +1,7 @@
 package com.crushcoder.kmovies.extensions
 
+import com.example.extensions.justTry
+
 /**
  * Converts string to integer safely otherwise returns zero
  */

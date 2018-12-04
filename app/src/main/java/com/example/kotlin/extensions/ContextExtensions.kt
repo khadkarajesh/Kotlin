@@ -1,4 +1,4 @@
-package com.crushcoder.kmovies.extensions
+package com.example.extensions
 
 import android.Manifest
 import android.content.Context

@@ -1,5 +1,8 @@
-package com.crushcoder.kmovies.extensions
+package com.example.extensions
 
+import android.content.Context
+import android.content.ContextWrapper
+import android.content.SharedPreferences
 import android.os.Build
 import com.example.kotlin.BuildConfig
 
@@ -28,3 +31,11 @@ inline fun lollipopAndAbove(block: () -> Unit) {
         block()
     }
 }
+
+fun SharedPreferences.edit(a: SharedPreferences.Editor.() -> Unit) {
+    val editor = edit()
+    editor.a()
+    editor.apply()
+}
+
+val ContextWrapper.sharedPreferences get() = getSharedPreferences("my_pref", Context.MODE_PRIVATE)

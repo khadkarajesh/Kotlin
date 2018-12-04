@@ -1,4 +1,4 @@
-package com.crushcoder.kmovies.extensions
+package com.example.extensions
 
 import android.graphics.drawable.Drawable
 import android.support.v4.graphics.drawable.DrawableCompat
